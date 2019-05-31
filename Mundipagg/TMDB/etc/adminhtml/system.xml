@@ -3,6 +3,7 @@
     <system>
         <tab id="mundipagg_tmdb" translate="label" sortOrder="10">
             <label>The Movie DB</label>
+            <resource>Mundipagg_Tmdb::tmdb_tab</resource>
         </tab>
         <section id="tmdb" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
