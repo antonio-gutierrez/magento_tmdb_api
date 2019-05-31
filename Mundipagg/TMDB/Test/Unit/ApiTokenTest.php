@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Mundipagg\TMDB\Test\Unit;
 
 use \PHPUnit\Framework\TestCase;
@@ -39,5 +38,4 @@ class ApiTokenTest extends TestCase
         $apiToken->setToken('newTestToken');
         $this->assertEquals('newTestToken', $apiToken);
     }
-
 }

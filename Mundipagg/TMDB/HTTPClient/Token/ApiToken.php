@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Basic class that returns a class with a token
+ * Basic class that returns a string token
  *
  * @package Mundipagg\TMDB\HTTPClient\Token
  * @author Antonio Gutierrez <gutierrez.computacao@gmail.com>
@@ -51,6 +51,4 @@ class ApiToken implements ApiTokenInterface
     {
         return $this->apiToken;
     }
-
-
 }
