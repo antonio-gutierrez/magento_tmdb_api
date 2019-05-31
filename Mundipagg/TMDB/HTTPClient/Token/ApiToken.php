@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Basic class that returns a string token
+ * This class returns a string token
  *
  * @package Mundipagg\TMDB\HTTPClient\Token
  * @author Antonio Gutierrez <gutierrez.computacao@gmail.com>

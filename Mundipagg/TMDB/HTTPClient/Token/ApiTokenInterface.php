@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Basic interface for classes that returns a string token
+ * Basic interface that returns a token
  *
  * @package Mundipagg\TMDB\HTTPClient\Token
  * @author Antonio Gutierrez <gutierrez.computacao@gmail.com>
@@ -13,7 +13,7 @@ namespace Mundipagg\TMDB\HTTPClient\Token;
 interface ApiTokenInterface
 {
     /**
-     * @param  string           $apiToken
+     * @param  string $apiToken
      * @return Mundipagg\TMDB\HTTPClient\Token\ApiTokenInterface
      * @since 1.0.0
      */
@@ -21,6 +21,7 @@ interface ApiTokenInterface
 
     /**
      * @return string
+     * @since 1.0.0
      */
     public function getToken(): string;
 
