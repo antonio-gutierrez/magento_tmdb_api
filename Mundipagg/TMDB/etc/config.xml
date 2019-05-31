@@ -3,7 +3,7 @@
     <default>
         <tmdb>
             <general>
-                <base_uri_api>https://api.themoviedb.org/3/movie/550</base_uri_api>
+                <base_uri_api>https://api.themoviedb.org/3/movie/550?api_key=</base_uri_api>
                 <api_key>6e60d556d8ca594a46e2b7e0639ca777</api_key>
             </general>
         </tmdb>
