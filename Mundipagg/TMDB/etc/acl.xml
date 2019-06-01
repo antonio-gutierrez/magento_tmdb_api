@@ -3,7 +3,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Mundipagg_Tmdb::tmdb_tab" sortOrder="10" disabled="false" title="API Connection Config Tab"/>
+                <resource id="Mundipagg_Tmdb::tmdb_tab" sortOrder="10" disabled="false" title="API Connection Config Tab">
                     <resource id="Mundipagg_Tmdb::tmdb_config" sortOrder="20" disabled="false" title="API Connection Config Item"/>
                 </resource>
             </resource>
