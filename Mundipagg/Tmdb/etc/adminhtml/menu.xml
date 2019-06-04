@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="TMDB_AdminController::menu" title="TMDB Options" module="Mundipagg_Tmdb" resource="Mundipagg_Tmdb::tmdb_parent" sortOrder="10"/>
+        <add id="TMDB_AdminController::item" title="The Movie DB Products" module="Mundipagg_Tmdb" resource="Mundipagg_Tmdb::tmdb_child" sortOrder="20" action="tmdbadmin/movie" parent="TMDB_AdminController::menu"/>
+    </menu>
+</config>
